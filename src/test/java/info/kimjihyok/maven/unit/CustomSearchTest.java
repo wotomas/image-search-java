@@ -1,7 +1,7 @@
 package info.kimjihyok.maven.unit;
 
-import info.kimjihyok.maven.AppTest;
 import info.kimjihyok.maven.utils.TestConstants;
+import junit.framework.TestCase;
 import org.apache.http.HttpException;
 import org.apache.http.HttpRequest;
 import org.apache.http.HttpResponse;
@@ -18,7 +18,7 @@ import java.util.ArrayList;
 /**
  * Created by jkimab on 2016. 3. 28..
  */
-public class CustomSearchTest extends AppTest {
+public class CustomSearchTest extends TestCase {
     private LocalTestServer server = new LocalTestServer(null,null);
     private HttpRequestHandler handler = new HttpRequestHandler() {
         public void handle(HttpRequest httpRequest, HttpResponse httpResponse, HttpContext httpContext) throws HttpException, IOException {
@@ -37,8 +37,9 @@ public class CustomSearchTest extends AppTest {
     }
 
     @Before
+    @Override
     public void setUp() throws Exception {
-        super.setUp();
+        System.out.println("AppTest: Test Setup Beginning!");
         server.start();
         server.register("/customsearch/*", handler);
 
@@ -48,8 +49,9 @@ public class CustomSearchTest extends AppTest {
     }
 
     @After
+    @Override
     public void tearDown() throws Exception {
-        super.tearDown();
+        System.out.println("AppTest: Test Setup Tearing Down!");
         server.stop();
     }
 
