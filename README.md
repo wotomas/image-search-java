@@ -1,6 +1,6 @@
 # About Image Search Java Library
 ## Introduction
-Its a very simple library that gets String Text value as an input to get list of URLs for the image. It was originally made for the purpose to be used in my personal projects that require image URLs from google search. 
+Its a very simple library that requires you to key search text as an input to get list of URLs for the image. It was originally made for the purpose to be used in my personal projects that require image URLs from google search. 
 
 ## Download
 Download the latest JAR or by adding repository to gradle and
