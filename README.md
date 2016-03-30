@@ -29,4 +29,7 @@ ArrayList<String> list = CustomSearch.image("Dog");
 **Where does the TEST.API and TEST_ENGINE_KEY come from?**
   - Search Google Custom Search API
   - Get the API Key and your personal search engine key
+  
+**When can I use this library?**
+  - Get URLs for a certain topic to run through many known Android Image Loading Libraries (Glide, Picasso, Fresco, UIL, etc)
 

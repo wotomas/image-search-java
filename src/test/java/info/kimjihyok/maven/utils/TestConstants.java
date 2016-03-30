@@ -6,7 +6,7 @@ package info.kimjihyok.maven.utils;
 public class TestConstants {
     public static final String TEST_API        = "f48d9sa54df8d9sd54f4894-api-key";
     public static final String TEST_ENGINE_KEY = "dsdf89sdf8e8e5dfdf5d-engine-key";
-    public static final String[] SAFE_IMAGE_STRING = {".ashx", ".jpg", ".gif", ".png", "lh3.googleusercontent.com"};
+    public static final String[] SAFE_IMAGE_STRING = {".jpg", ".bmp", ".png"};
 
     public static final String STRING_RESPONSE = "{\n" +
             "    \"items\": [\n" +
