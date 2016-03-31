@@ -6,205 +6,198 @@ package info.kimjihyok.maven.utils;
 public class TestConstants {
     public static final String TEST_API        = "f48d9sa54df8d9sd54f4894-api-key";
     public static final String TEST_ENGINE_KEY = "dsdf89sdf8e8e5dfdf5d-engine-key";
-    public static final String[] SAFE_IMAGE_STRING = {".jpg", ".bmp", ".png"};
+    public static final String[] SAFE_IMAGE_STRING = {".jpg", ".bmp", ".png", ".ashx"};
 
     public static final String STRING_RESPONSE = "{\n" +
             "    \"items\": [\n" +
             "        {\n" +
             "            \"kind\": \"customsearch#result\",\n" +
-            "            \"title\": \"Google Analytics - Mobile, Premium and Free Website Analytics – Google\",\n" +
-            "            \"htmlTitle\": \"<b>Google</b> Analytics - Mobile, Premium and Free Website Analytics – <b>Google</b>\",\n" +
-            "            \"link\": \"https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_116x41dp.png\",\n" +
-            "            \"displayLink\": \"www.google.com\",\n" +
-            "            \"snippet\": \"Google Analytics - Mobile\",\n" +
-            "            \"htmlSnippet\": \"<b>Google</b> Analytics - Mobile\",\n" +
-            "            \"mime\": \"image/png\",\n" +
-            "            \"fileFormat\": \"Image Document\",\n" +
-            "            \"image\": {\n" +
-            "                \"contextLink\": \"https://www.google.com/analytics/\",\n" +
-            "                \"height\": 82,\n" +
-            "                \"width\": 232,\n" +
-            "                \"byteSize\": 4572,\n" +
-            "                \"thumbnailLink\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTE4rXT2rbdHBF7Dz9iLS7YLSv4X55A0GN0lKG6U-SJCmt99kTOaSzGVg\",\n" +
-            "                \"thumbnailHeight\": 39,\n" +
-            "                \"thumbnailWidth\": 109\n" +
-            "            }\n" +
-            "        },\n" +
-            "        {\n" +
-            "            \"kind\": \"customsearch#result\",\n" +
-            "            \"title\": \"Google Trends\",\n" +
-            "            \"htmlTitle\": \"<b>Google</b> Trends\",\n" +
-            "            \"link\": \"https://gstatic.com/images/branding/googleg/1x/googleg_standard_color_128dp.png\",\n" +
-            "            \"displayLink\": \"www.google.com\",\n" +
-            "            \"snippet\": \"Google Trends\",\n" +
-            "            \"htmlSnippet\": \"<b>Google</b> Trends\",\n" +
-            "            \"mime\": \"image/png\",\n" +
-            "            \"fileFormat\": \"Image Document\",\n" +
-            "            \"image\": {\n" +
-            "                \"contextLink\": \"https://www.google.com/trends/\",\n" +
-            "                \"height\": 128,\n" +
-            "                \"width\": 128,\n" +
-            "                \"byteSize\": 3428,\n" +
-            "                \"thumbnailLink\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRQQZ8hx0jsVbZksTw1h2G-O0JyjV9KFOj19u1c8nKEAPnCPEuq_QrT7A\",\n" +
-            "                \"thumbnailHeight\": 91,\n" +
-            "                \"thumbnailWidth\": 91\n" +
-            "            }\n" +
-            "        },\n" +
-            "        {\n" +
-            "            \"kind\": \"customsearch#result\",\n" +
-            "            \"title\": \"Google AdWords | Google (PPC) Pay-Per-Click Online Advertising\",\n" +
-            "            \"htmlTitle\": \"<b>Google</b> AdWords | <b>Google</b> (PPC) Pay-Per-Click Online Advertising\",\n" +
-            "            \"link\": \"https://www.google.com/adwords/images/illustrations/overview-browser-text.png\",\n" +
-            "            \"displayLink\": \"www.google.com\",\n" +
-            "            \"snippet\": \"Google AdWords | Google (PPC)\",\n" +
-            "            \"htmlSnippet\": \"<b>Google</b> AdWords | <b>Google</b> (PPC)\",\n" +
-            "            \"mime\": \"image/png\",\n" +
-            "            \"fileFormat\": \"Image Document\",\n" +
-            "            \"image\": {\n" +
-            "                \"contextLink\": \"https://www.google.com/adwords/\",\n" +
-            "                \"height\": 1044,\n" +
-            "                \"width\": 1436,\n" +
-            "                \"byteSize\": 22959,\n" +
-            "                \"thumbnailLink\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ_b1Lf_yrnTW8gWfVsPLtZ7VgpQIpxL_KXEhvaA4vwRcY0xqJ2kTH3L6b-\",\n" +
-            "                \"thumbnailHeight\": 109,\n" +
-            "                \"thumbnailWidth\": 150\n" +
-            "            }\n" +
-            "        },\n" +
-            "        {\n" +
-            "            \"kind\": \"customsearch#result\",\n" +
-            "            \"title\": \"Google's New Logo\",\n" +
-            "            \"htmlTitle\": \"<b>Google's</b> New Logo\",\n" +
-            "            \"link\": \"http://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif\",\n" +
-            "            \"displayLink\": \"www.google.com\",\n" +
-            "            \"snippet\": \"Google's New Logo\",\n" +
-            "            \"htmlSnippet\": \"<b>Google's</b> New Logo\",\n" +
-            "            \"mime\": \"image/gif\",\n" +
-            "            \"fileFormat\": \"Image Document\",\n" +
-            "            \"image\": {\n" +
-            "                \"contextLink\": \"http://www.google.com/doodles/googles-new-logo\",\n" +
-            "                \"height\": 400,\n" +
-            "                \"width\": 881,\n" +
-            "                \"byteSize\": 856082,\n" +
-            "                \"thumbnailLink\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQgEbDnSPCp1vBV9FRDfYaywr-Pznv8EnEl7Tq4RfPyB0orxh7df0xszYSW\",\n" +
-            "                \"thumbnailHeight\": 66,\n" +
-            "                \"thumbnailWidth\": 146\n" +
-            "            }\n" +
-            "        },\n" +
-            "        {\n" +
-            "            \"kind\": \"customsearch#result\",\n" +
-            "            \"title\": \"Google for Work - Enterprise Solutions to Work the Way You Live\",\n" +
-            "            \"htmlTitle\": \"<b>Google</b> for Work - Enterprise Solutions to Work the Way You Live\",\n" +
-            "            \"link\": \"https://www.google.com/work/images/logo/google-for-work-social-icon.png\",\n" +
-            "            \"displayLink\": \"www.google.com\",\n" +
-            "            \"snippet\": \"Google for Work - Enterprise\",\n" +
-            "            \"htmlSnippet\": \"<b>Google</b> for Work - Enterprise\",\n" +
-            "            \"mime\": \"image/png\",\n" +
-            "            \"fileFormat\": \"Image Document\",\n" +
-            "            \"image\": {\n" +
-            "                \"contextLink\": \"https://www.google.com/work/\",\n" +
-            "                \"height\": 209,\n" +
-            "                \"width\": 350,\n" +
-            "                \"byteSize\": 5627,\n" +
-            "                \"thumbnailLink\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEvoDAzc32ZdBth90cIH9XaroCI44NqmmFPm-f9jVYqDh0L48I4MIRoyI\",\n" +
-            "                \"thumbnailHeight\": 72,\n" +
-            "                \"thumbnailWidth\": 120\n" +
-            "            }\n" +
-            "        },\n" +
-            "        {\n" +
-            "            \"kind\": \"customsearch#result\",\n" +
-            "            \"title\": \"Google Doodles\",\n" +
-            "            \"htmlTitle\": \"<b>Google</b> Doodles\",\n" +
-            "            \"link\": \"http://www.google.com/logos/doodles/2015/mothers-day-2015-poland-5750581880684544-hp2x.gif\",\n" +
-            "            \"displayLink\": \"www.google.com\",\n" +
-            "            \"snippet\": \"Google Doodles\",\n" +
-            "            \"htmlSnippet\": \"<b>Google</b> Doodles\",\n" +
-            "            \"mime\": \"image/gif\",\n" +
-            "            \"fileFormat\": \"Image Document\",\n" +
-            "            \"image\": {\n" +
-            "                \"contextLink\": \"http://www.google.com/doodles/\",\n" +
-            "                \"height\": 400,\n" +
-            "                \"width\": 1000,\n" +
-            "                \"byteSize\": 639425,\n" +
-            "                \"thumbnailLink\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcThXQGzohRyCtLWia80kDO7r5gEDuqwPAaAEGuE6e-6PAoz9eCArrZZwGc\",\n" +
-            "                \"thumbnailHeight\": 60,\n" +
-            "                \"thumbnailWidth\": 149\n" +
-            "            }\n" +
-            "        },\n" +
-            "        {\n" +
-            "            \"kind\": \"customsearch#result\",\n" +
-            "            \"title\": \"Google and Visual Editions launch Editions at Play » MobyLives\",\n" +
-            "            \"htmlTitle\": \"<b>Google</b> and Visual Editions launch Editions at Play » MobyLives\",\n" +
-            "            \"link\": \"http://cdn2.mhpbooks.com/2016/02/google.jpg\",\n" +
-            "            \"displayLink\": \"www.mhpbooks.com\",\n" +
-            "            \"snippet\": \"google. “\",\n" +
-            "            \"htmlSnippet\": \"<b>google</b>. “\",\n" +
+            "            \"title\": \"Amazon.com: Dogs: Pet Supplies: Collars, Harnesses & Leashes ...\",\n" +
+            "            \"htmlTitle\": \"Amazon.com: <b>Dogs</b>: Pet Supplies: Collars, Harnesses & Leashes <b>...</b>\",\n" +
+            "            \"link\": \"http://g-ecx.images-amazon.com/images/G/01/img15/pet-products/small-tiles/23695_pets_vertical_store_dogs_small_tile_8._CB312176604_.jpg\",\n" +
+            "            \"displayLink\": \"www.amazon.com\",\n" +
+            "            \"snippet\": \"Dog Toys\",\n" +
+            "            \"htmlSnippet\": \"<b>Dog</b> Toys\",\n" +
             "            \"mime\": \"image/jpeg\",\n" +
             "            \"image\": {\n" +
-            "                \"contextLink\": \"http://www.mhpbooks.com/google-and-visual-editions-launch-editions-at-play/\",\n" +
-            "                \"height\": 900,\n" +
-            "                \"width\": 1600,\n" +
-            "                \"byteSize\": 173988,\n" +
-            "                \"thumbnailLink\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-srHzYb18gyLfS-qZioebZZnMVAEFJQ5rD3d2nnQs1D8usvFxmqrur4s\",\n" +
+            "                \"contextLink\": \"http://www.amazon.com/dogs-supplies-training-beds-collars-grooming/b?ie=UTF8&node=2975312011\",\n" +
+            "                \"height\": 305,\n" +
+            "                \"width\": 593,\n" +
+            "                \"byteSize\": 56996,\n" +
+            "                \"thumbnailLink\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRc5-7t_dQLu7lAze52yKrzr6sS0QxJN2ulqaZkIbSezu8h0O5ifl7Cmes\",\n" +
+            "                \"thumbnailHeight\": 69,\n" +
+            "                \"thumbnailWidth\": 135\n" +
+            "            }\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"kind\": \"customsearch#result\",\n" +
+            "            \"title\": \"Dogs | Animal Planet\",\n" +
+            "            \"htmlTitle\": \"<b>Dogs</b> | Animal Planet\",\n" +
+            "            \"link\": \"http://r.ddmcdn.com/w_830/s_f/o_1/cx_0/cy_220/cw_1255/ch_1255/APL/uploads/2014/11/dog-breed-selector-australian-shepherd.jpg\",\n" +
+            "            \"displayLink\": \"www.animalplanet.com\",\n" +
+            "            \"snippet\": \"Dogs\",\n" +
+            "            \"htmlSnippet\": \"<b>Dogs</b>\",\n" +
+            "            \"mime\": \"image/jpeg\",\n" +
+            "            \"image\": {\n" +
+            "                \"contextLink\": \"http://www.animalplanet.com/pets/dogs/\",\n" +
+            "                \"height\": 830,\n" +
+            "                \"width\": 830,\n" +
+            "                \"byteSize\": 79169,\n" +
+            "                \"thumbnailLink\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQsqEcjRUDDLwY4gTQJLZzQKUvApKIcmf8fcVhE9UxyAvKI4ZX6jQarRvVtPw\",\n" +
+            "                \"thumbnailHeight\": 144,\n" +
+            "                \"thumbnailWidth\": 144\n" +
+            "            }\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"kind\": \"customsearch#result\",\n" +
+            "            \"title\": \"Dog Day Care in Marda Loop Calgary - Marda Loop Doggie Daycare\",\n" +
+            "            \"htmlTitle\": \"<b>Dog</b> Day Care in Marda Loop Calgary - Marda Loop Doggie Daycare\",\n" +
+            "            \"link\": \"http://mardaloopdoggiedaycare.com/wp-content/uploads/2014/12/cute-dog2.jpg\",\n" +
+            "            \"displayLink\": \"mardaloopdoggiedaycare.com\",\n" +
+            "            \"snippet\": \"cute dog2\",\n" +
+            "            \"htmlSnippet\": \"cute dog2\",\n" +
+            "            \"mime\": \"image/jpeg\",\n" +
+            "            \"image\": {\n" +
+            "                \"contextLink\": \"http://mardaloopdoggiedaycare.com/\",\n" +
+            "                \"height\": 1080,\n" +
+            "                \"width\": 1920,\n" +
+            "                \"byteSize\": 553692,\n" +
+            "                \"thumbnailLink\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfaIUByS8-6ljX0sLptMgWxunWbCdolFvIldee7etCrDMoSVchMhiltjBs\",\n" +
             "                \"thumbnailHeight\": 84,\n" +
             "                \"thumbnailWidth\": 150\n" +
             "            }\n" +
             "        },\n" +
             "        {\n" +
             "            \"kind\": \"customsearch#result\",\n" +
-            "            \"title\": \"Google Doodles\",\n" +
-            "            \"htmlTitle\": \"<b>Google</b> Doodles\",\n" +
-            "            \"link\": \"http://www.google.com/logos/doodles/2015/mothers-day-2015-poland-5750581880684544-hp.gif\",\n" +
-            "            \"displayLink\": \"www.google.com\",\n" +
-            "            \"snippet\": \"This day in history\",\n" +
-            "            \"htmlSnippet\": \"This day in history\",\n" +
-            "            \"mime\": \"image/gif\",\n" +
-            "            \"fileFormat\": \"Image Document\",\n" +
+            "            \"title\": \"Dog: Dog Breeds, Adoption, Bringing a Dog Home and Care\",\n" +
+            "            \"htmlTitle\": \"<b>Dog</b>: <b>Dog</b> Breeds, Adoption, Bringing a <b>Dog</b> Home and Care\",\n" +
+            "            \"link\": \"https://www.petfinder.com/wp-content/uploads/2012/11/200454698-001-preparing-home-new-dog-632x475-632x353.jpg\",\n" +
+            "            \"displayLink\": \"www.petfinder.com\",\n" +
+            "            \"snippet\": \"Bringing A Dog Home\",\n" +
+            "            \"htmlSnippet\": \"Bringing A <b>Dog</b> Home\",\n" +
+            "            \"mime\": \"image/jpeg\",\n" +
             "            \"image\": {\n" +
-            "                \"contextLink\": \"http://www.google.com/doodles/\",\n" +
-            "                \"height\": 200,\n" +
-            "                \"width\": 500,\n" +
-            "                \"byteSize\": 271978,\n" +
-            "                \"thumbnailLink\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSotV7U0ksOC44FjwwcvY_7B8KajfrBgcyCKTn1suRfJCJDKK0VFMj6gn4\",\n" +
-            "                \"thumbnailHeight\": 52,\n" +
-            "                \"thumbnailWidth\": 130\n" +
+            "                \"contextLink\": \"https://www.petfinder.com/dogs/\",\n" +
+            "                \"height\": 353,\n" +
+            "                \"width\": 632,\n" +
+            "                \"byteSize\": 39123,\n" +
+            "                \"thumbnailLink\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMZ5-rztklwPS0Jjoh6iiUF95QgarPCe3zfkBQkvcTxQ52SZ4fj5xCxQM\",\n" +
+            "                \"thumbnailHeight\": 77,\n" +
+            "                \"thumbnailWidth\": 137\n" +
             "            }\n" +
             "        },\n" +
             "        {\n" +
             "            \"kind\": \"customsearch#result\",\n" +
-            "            \"title\": \"Wilbur Scoville's 151st Birthday\",\n" +
-            "            \"htmlTitle\": \"Wilbur Scoville's 151st Birthday\",\n" +
-            "            \"link\": \"https://lh3.googleusercontent.com/yuWddD3H-5WT26x-Zeyvbu1Jm5YkX-pvDj-kNFXgvu_v-yaEJpdvanrJntafbqJLIDXaFLI4Zbsnuts9FtzzZWMlCeV2hcZHv0z8pWbY=s0\",\n" +
-            "            \"displayLink\": \"www.google.com\",\n" +
-            "            \"snippet\": \"Ice cream win: draft and final\",\n" +
-            "            \"htmlSnippet\": \"Ice cream win: draft and final\",\n" +
+            "            \"title\": \"Large Breed Dog and Puppy Food | Royal Canin\",\n" +
+            "            \"htmlTitle\": \"Large Breed <b>Dog</b> and Puppy Food | Royal Canin\",\n" +
+            "            \"link\": \"https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-maxi-landing-hero.ashx\",\n" +
+            "            \"displayLink\": \"www.royalcanin.com\",\n" +
+            "            \"snippet\": \"Large dogs need special\",\n" +
+            "            \"htmlSnippet\": \"Large <b>dogs</b> need special\",\n" +
             "            \"mime\": \"image/\",\n" +
             "            \"fileFormat\": \"Image Document\",\n" +
             "            \"image\": {\n" +
-            "                \"contextLink\": \"http://www.google.com/doodles/wilbur-scovilles-151st-birthday\",\n" +
-            "                \"height\": 225,\n" +
-            "                \"width\": 400,\n" +
-            "                \"byteSize\": 181808,\n" +
-            "                \"thumbnailLink\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTTO9SQmIeAU1xkN5jf736tIF2AbzVpLUnZIOB_awtaV2dfi-PpqpQeDQ\",\n" +
-            "                \"thumbnailHeight\": 70,\n" +
-            "                \"thumbnailWidth\": 124\n" +
+            "                \"contextLink\": \"https://www.royalcanin.com/products/dog/maxi\",\n" +
+            "                \"height\": 350,\n" +
+            "                \"width\": 358,\n" +
+            "                \"byteSize\": 24417,\n" +
+            "                \"thumbnailLink\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRZJDCq9kEBqGCmIvCEAt3fz7jKC_cBwgC7faPKgR8haXkcszHAvlG9yVY\",\n" +
+            "                \"thumbnailHeight\": 118,\n" +
+            "                \"thumbnailWidth\": 121\n" +
             "            }\n" +
             "        },\n" +
             "        {\n" +
             "            \"kind\": \"customsearch#result\",\n" +
-            "            \"title\": \"Google Unveils New, Flatter Logo For The Post-PC World | Popular ...\",\n" +
-            "            \"htmlTitle\": \"<b>Google</b> Unveils New, Flatter Logo For The Post-PC World | Popular <b>...</b>\",\n" +
-            "            \"link\": \"http://www.popsci.com/sites/popsci.com/files/styles/large_1x_/public/new-google-logo.jpg?itok=ZdIobGek\",\n" +
-            "            \"displayLink\": \"www.popsci.com\",\n" +
-            "            \"snippet\": \"New Google logo circa 2015\",\n" +
-            "            \"htmlSnippet\": \"New <b>Google</b> logo circa 2015\",\n" +
+            "            \"title\": \"Dog history and some interesting facts\",\n" +
+            "            \"htmlTitle\": \"<b>Dog</b> history and some interesting facts\",\n" +
+            "            \"link\": \"http://animaliaz-life.com/data_images/dog/dog3.jpg\",\n" +
+            "            \"displayLink\": \"animaliaz-life.com\",\n" +
+            "            \"snippet\": \"Cool Dog\",\n" +
+            "            \"htmlSnippet\": \"Cool <b>Dog</b>\",\n" +
             "            \"mime\": \"image/jpeg\",\n" +
             "            \"image\": {\n" +
-            "                \"contextLink\": \"http://www.popsci.com/google-unveils-new-flatter-logo-for-post-pc-world\",\n" +
-            "                \"height\": 1101,\n" +
-            "                \"width\": 2000,\n" +
-            "                \"byteSize\": 63549,\n" +
-            "                \"thumbnailLink\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdFRYVepfwJWkkgolIybudV6JBr7etx5I_MlRnwfCIFB9dZ7UOex3StJc\",\n" +
-            "                \"thumbnailHeight\": 83,\n" +
+            "                \"contextLink\": \"http://animaliaz-life.com/dogs.html\",\n" +
+            "                \"height\": 1958,\n" +
+            "                \"width\": 2510,\n" +
+            "                \"byteSize\": 3127687,\n" +
+            "                \"thumbnailLink\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQLFyhiOEHGCYsuRW8eDc62lISGI-cKxQ_r4rEwAzaQqSU3jM2IM3f-NNES\",\n" +
+            "                \"thumbnailHeight\": 117,\n" +
+            "                \"thumbnailWidth\": 150\n" +
+            "            }\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"kind\": \"customsearch#result\",\n" +
+            "            \"title\": \"Dog - Wikipedia, the free encyclopedia\",\n" +
+            "            \"htmlTitle\": \"<b>Dog</b> - Wikipedia, the free encyclopedia\",\n" +
+            "            \"link\": \"https://upload.wikimedia.org/wikipedia/commons/d/d9/Collage_of_Nine_Dogs.jpg\",\n" +
+            "            \"displayLink\": \"en.wikipedia.org\",\n" +
+            "            \"snippet\": \"Collage of Nine Dogs.jpg\",\n" +
+            "            \"htmlSnippet\": \"Collage of Nine <b>Dogs</b>.jpg\",\n" +
+            "            \"mime\": \"image/jpeg\",\n" +
+            "            \"image\": {\n" +
+            "                \"contextLink\": \"https://en.wikipedia.org/wiki/Dog\",\n" +
+            "                \"height\": 1463,\n" +
+            "                \"width\": 1665,\n" +
+            "                \"byteSize\": 2286651,\n" +
+            "                \"thumbnailLink\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQOJ4hkMpwmOM_ytZr9qJxSMQVFCROt6tt0hGuZ3R0VoIlPwZptvdtqWPZ2vQ\",\n" +
+            "                \"thumbnailHeight\": 132,\n" +
+            "                \"thumbnailWidth\": 150\n" +
+            "            }\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"kind\": \"customsearch#result\",\n" +
+            "            \"title\": \"Dog Behavior | Cesar's Way\",\n" +
+            "            \"htmlTitle\": \"<b>Dog</b> Behavior | Cesar's Way\",\n" +
+            "            \"link\": \"https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/Common-dog-behaviors-explained.jpg?itok=FSzwbBoi\",\n" +
+            "            \"displayLink\": \"www.cesarsway.com\",\n" +
+            "            \"snippet\": \"Dog sitting outside looking\",\n" +
+            "            \"htmlSnippet\": \"<b>Dog</b> sitting outside looking\",\n" +
+            "            \"mime\": \"image/jpeg\",\n" +
+            "            \"image\": {\n" +
+            "                \"contextLink\": \"https://www.cesarsway.com/dog-behavior\",\n" +
+            "                \"height\": 450,\n" +
+            "                \"width\": 845,\n" +
+            "                \"byteSize\": 49038,\n" +
+            "                \"thumbnailLink\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRWajSqqvRtcGxIHu0zS3jq1ndGGhhIcxNPQIwx5U-1J3Z7Dk0NV-6Hq2sL\",\n" +
+            "                \"thumbnailHeight\": 77,\n" +
+            "                \"thumbnailWidth\": 145\n" +
+            "            }\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"kind\": \"customsearch#result\",\n" +
+            "            \"title\": \"Aggression | ASPCA\",\n" +
+            "            \"htmlTitle\": \"Aggression | ASPCA\",\n" +
+            "            \"link\": \"http://www.aspca.org/sites/default/files/dog-care_dog-bite-prevention_main-image.jpg\",\n" +
+            "            \"displayLink\": \"www.aspca.org\",\n" +
+            "            \"snippet\": \"Aggression\",\n" +
+            "            \"htmlSnippet\": \"Aggression\",\n" +
+            "            \"mime\": \"image/jpeg\",\n" +
+            "            \"image\": {\n" +
+            "                \"contextLink\": \"http://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/aggression\",\n" +
+            "                \"height\": 500,\n" +
+            "                \"width\": 1040,\n" +
+            "                \"byteSize\": 302180,\n" +
+            "                \"thumbnailLink\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTl2pisUFKPZCWqI-frnRMaGfQy8Tr7CQvLyteiQwibgxSv-aNf2FqbDso\",\n" +
+            "                \"thumbnailHeight\": 72,\n" +
+            "                \"thumbnailWidth\": 150\n" +
+            "            }\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"kind\": \"customsearch#result\",\n" +
+            "            \"title\": \"Dog - Wikipedia, the free encyclopedia\",\n" +
+            "            \"htmlTitle\": \"<b>Dog</b> - Wikipedia, the free encyclopedia\",\n" +
+            "            \"link\": \"https://upload.wikimedia.org/wikipedia/commons/e/ec/Terrier_mixed-breed_dog.jpg\",\n" +
+            "            \"displayLink\": \"en.wikipedia.org\",\n" +
+            "            \"snippet\": \"Mixed-breed dogs have been\",\n" +
+            "            \"htmlSnippet\": \"Mixed-breed <b>dogs</b> have been\",\n" +
+            "            \"mime\": \"image/jpeg\",\n" +
+            "            \"image\": {\n" +
+            "                \"contextLink\": \"https://en.wikipedia.org/wiki/Dog\",\n" +
+            "                \"height\": 1145,\n" +
+            "                \"width\": 1280,\n" +
+            "                \"byteSize\": 243497,\n" +
+            "                \"thumbnailLink\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3HvV_qy-mtA4hqVAobUmYg6onZTFMfya1NKmpkeUL6-fiyZ2sDxu4AgJx\",\n" +
+            "                \"thumbnailHeight\": 134,\n" +
             "                \"thumbnailWidth\": 150\n" +
             "            }\n" +
             "        }\n" +
