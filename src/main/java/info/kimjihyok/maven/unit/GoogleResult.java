@@ -20,10 +20,30 @@ public class GoogleResult {
         this.items = items;
     }
 
-    @Override
-    public String toString() {
-        return "GoogleResult{" +
-                "items=" + items +
-                '}';
+    public class ImageItem {
+        private String title;
+        private String link;
+
+        public ImageItem(String title, String link) {
+            this.title = title;
+            this.link = link;
+        }
+
+        public String getLink() {
+            return link;
+        }
+
+        public void setLink(String link) {
+            this.link = link;
+        }
+
+        public String getTitle() {
+            return title;
+        }
+
+        public void setTitle(String title) {
+            this.title = title;
+        }
     }
+
 }

@@ -63,11 +63,11 @@ public class CustomSearchTest extends TestCase {
         assertEquals(TestConstants.TEST_ENGINE_KEY, CustomSearch.getSearchEngineKey());
     }
 
-    public void testSearchResultSize() {
+    public void testSearchResultSize() throws IOException {
         assertEquals(10, CustomSearch.image("dog").size());
     }
 
-    public void testSearchResultIsImage() {
+    public void testSearchResultIsImage() throws IOException {
         ArrayList<String> list = CustomSearch.image("dog");
         for(String url: list) {
             boolean result = true;
