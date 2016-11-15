@@ -15,7 +15,7 @@ repositories {
 grabbing via Gradle
 
 ```
-compile 'info.kimjihyok.maven:ImageSearch:0.2'
+compile 'info.kimjihyok.maven:ImageSearch:0.4'
 ```
 
 ## Example
